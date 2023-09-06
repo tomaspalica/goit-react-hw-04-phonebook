@@ -1,5 +1,5 @@
 
-import { Component, useState} from 'react';
+import { useState} from 'react';
 import css from '../css/ContactForm.module.css'
 const ContactForm = ( {onSubmit} ) =>  { 
   const [name, setName] = useState("")
