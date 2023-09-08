@@ -1,4 +1,4 @@
-import React, { Component, useState, useEffect} from "react";
+import React, {useState, useEffect} from "react";
 import { nanoid } from "nanoid";
 import { ContactsList } from "./ContactsList";
 import { Filter } from "./Filter";
