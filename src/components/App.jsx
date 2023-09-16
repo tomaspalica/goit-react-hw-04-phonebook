@@ -73,7 +73,7 @@ useEffect(() =>{
   // localStorage.removeItem(el.target.name)
   
  }
- useEffect(() => {
+ useEffect(() => {  
   const contactFromLS = localStorage.getItem("contacts")
   if(contactFromLS){
     setContacts( JSON.parse(localStorage.getItem("contacts")))
